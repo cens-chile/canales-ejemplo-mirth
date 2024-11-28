@@ -1,0 +1,14 @@
+CREATE DATABASE `curso-mirth` /*!40100 DEFAULT CHARACTER SET utf8mb3 COLLATE utf8mb3_spanish_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+CREATE TABLE `curso-mirth`.patient (
+	id int auto_increment NOT NULL,
+	rut varchar(12) NOT NULL,
+	nombre varchar(20) NOT NULL,
+	apellido1 varchar(20) NOT NULL,
+	nacimiento DATE NOT NULL,
+	CONSTRAINT NewTable_pk PRIMARY KEY (id),
+	CONSTRAINT NewTable_unique UNIQUE KEY (rut)
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb3
+COLLATE=utf8mb3_spanish_ci;

@@ -1,0 +1,16 @@
+{
+  "resourceType" : "Patient",
+  "active" : true,
+  "name" : [
+    {
+      "use" : "official",
+      "family" : "Doe",
+      "given" : [
+        "John"
+      ]
+    }
+  ],
+  "gender" : "male",
+  "birthDate" : "19700101",
+  "deceasedBoolean" : false
+}

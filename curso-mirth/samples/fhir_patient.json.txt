@@ -1,0 +1,28 @@
+{
+	"resourceType": "Patient",
+	"id": "32406",
+	"identifier": [
+		{
+			"use": "usual",
+			"system": "http://hospital.org/fichas-clinicas",
+			"value": "7401"
+		}
+	],
+	"name": [
+		{
+			"text": "Donald Duck",
+			"family": "Duck",
+			"given": [
+				"Donald"
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "email",
+			"value": "donald.duck@disney.net"
+		}
+	],
+	"gender": "male",
+	"birthDate": "2022-07-29"
+}
